@@ -1,0 +1,1169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E26F05EB07CF975643F12B /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A668F4AD73E628521BBC394 /* AppTests.swift */; };
+		05B62DB9D1645BC4AD1228C7 /* XoxoDependencies_XoxoToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A115D29042EAE52DE2A9A7E /* XoxoDependencies_XoxoToast.bundle */; };
+		0C384F415B15B47F627D8DE4 /* XoxoDependencies_XoxoAssetsMobile.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38B9EA58937DD19C33EC2258 /* XoxoDependencies_XoxoAssetsMobile.bundle */; };
+		16F4053CBDEE0200C5B7B7FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635B5A2588CEB7DAE2C61C6D /* LaunchScreen.storyboard */; };
+		21C2C7BF524823F6C48EB12F /* SampleTuistProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF51AD81215BB3E54AE593F /* SampleTuistProjectUITests.swift */; };
+		24E5FB647CBF805CADB9848F /* XoxoDependencies_XoxoToast.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 5A115D29042EAE52DE2A9A7E /* XoxoDependencies_XoxoToast.bundle */; platformFilter = ios; };
+		2BB461B8851CE83DEA74DF4C /* XoxoAssetsMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE42018826F82532F0D4C370 /* XoxoAssetsMobile.framework */; platformFilter = ios; };
+		2E66DDD74B1B29B8F6C043D4 /* SampleTuistProjectKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4011814BBBCA66C5CA22B6D0 /* SampleTuistProjectKit.framework */; };
+		423715D37A12B3EE50830A3C /* XoxoDependencies_XoxoAssetsTV.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB9A185E481689891763F5E0 /* XoxoDependencies_XoxoAssetsTV.bundle */; };
+		506D8E83F4B23FE16B779C63 /* SampleTuistProjectKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F70BA6B2A0D41B5B7DD132 /* SampleTuistProjectKitTests.swift */; };
+		5D65159BDAB8DECA94EDD067 /* SampleTuistProjectUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3EE99493AE3833B57274101 /* SampleTuistProjectUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6872C35810FDABF70EE27CFA /* SampleTuistProjectKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7499F245BB68FBF8C29E65 /* SampleTuistProjectKit.swift */; };
+		74C21919B4099CC95F51F0EA /* XoxoAssetsTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6B3F4C11369875221698A0 /* XoxoAssetsTV.framework */; platformFilter = ios; };
+		7AC4DF1565B8752E36F5F0A8 /* SampleTuistProjectKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4011814BBBCA66C5CA22B6D0 /* SampleTuistProjectKit.framework */; };
+		8CD99EBA8B4BE3B76BCBDD5A /* SampleTuistProjectUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EE99493AE3833B57274101 /* SampleTuistProjectUI.framework */; };
+		96BC396B8687197FB6D7BC64 /* XoxoDependencies_XoxoAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1F132ABE3F42E04C37FE4B1 /* XoxoDependencies_XoxoAssets.bundle */; };
+		9ED56B14D268F34952F4D28F /* SampleTuistProjectUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D228CCDBC68E109EDE85064 /* SampleTuistProjectUI.swift */; };
+		A1E6F535C9A7B7E94C65D70A /* XoxoAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC056D0C2FA9408560A088BA /* XoxoAssets.framework */; platformFilter = ios; };
+		D2AB2AB65F3BB5D0CF7E5B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A024475506B099942802CB56 /* AppDelegate.swift */; };
+		DA54DEC884FBC21325866A2D /* XoxoDependencies_XoxoAssets.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E1F132ABE3F42E04C37FE4B1 /* XoxoDependencies_XoxoAssets.bundle */; platformFilter = ios; };
+		DC29BE3AD0172A51009758E9 /* XoxoToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4F7FE42F0CADB965B1758B /* XoxoToast.framework */; platformFilter = ios; };
+		E10656493B3FBB81B1E424C3 /* XoxoDependencies_XoxoAssetsMobile.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 38B9EA58937DD19C33EC2258 /* XoxoDependencies_XoxoAssetsMobile.bundle */; platformFilter = ios; };
+		E8BB56E3952583E7DACDC47F /* XoxoDependencies_XoxoAssetsTV.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = CB9A185E481689891763F5E0 /* XoxoDependencies_XoxoAssetsTV.bundle */; platformFilter = ios; };
+		F5E50A2D27E22EEC067C5EF0 /* TuistBundle+SampleTuistProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF758DBD4AF34D1A35F382 /* TuistBundle+SampleTuistProject.swift */; };
+		FB9C5DEC09D01A45E259BB6E /* SampleTuistProjectKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4011814BBBCA66C5CA22B6D0 /* SampleTuistProjectKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD3C6AB1EE56586C6FD796AA /* SampleTuistProjectUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EE99493AE3833B57274101 /* SampleTuistProjectUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		383ACB76E716B13B9FF0E454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21181E3D2BC7C7B9CA9BF7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E25AED6EC4C20EE5354FED;
+			remoteInfo = SampleTuistProjectKit;
+		};
+		3F1F7B5E0C5D13AE007AB659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21181E3D2BC7C7B9CA9BF7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9792F94CB2F8DE2A333324;
+			remoteInfo = SampleTuistProjectUI;
+		};
+		64A43302A9B6BB4E94672A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21181E3D2BC7C7B9CA9BF7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967B51EDC4161799B36F1C02;
+			remoteInfo = SampleTuistProject;
+		};
+		A0B116AEE4B0E27CC6A4A451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21181E3D2BC7C7B9CA9BF7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E25AED6EC4C20EE5354FED;
+			remoteInfo = SampleTuistProjectKit;
+		};
+		D3BF9E1BABC7B7ABC241AB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21181E3D2BC7C7B9CA9BF7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9792F94CB2F8DE2A333324;
+			remoteInfo = SampleTuistProjectUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		066600A5134BF94A38FBDF61 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A010CBADD9DD3EC7FDD8C24 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				DA54DEC884FBC21325866A2D /* XoxoDependencies_XoxoAssets.bundle in Dependencies */,
+				E10656493B3FBB81B1E424C3 /* XoxoDependencies_XoxoAssetsMobile.bundle in Dependencies */,
+				E8BB56E3952583E7DACDC47F /* XoxoDependencies_XoxoAssetsTV.bundle in Dependencies */,
+				24E5FB647CBF805CADB9848F /* XoxoDependencies_XoxoToast.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3C105D6BD7A90DC3DFDEF872 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9766A1DCB7CF352E18198D4D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CC0B4D9B94F275D7654DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6423D8C4FD9123F5A869D76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB9C5DEC09D01A45E259BB6E /* SampleTuistProjectKit.framework in Embed Frameworks */,
+				5D65159BDAB8DECA94EDD067 /* SampleTuistProjectUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF40D76B19899ED188CA8529 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02234A0278AC7BC7187C835E /* SampleTuistProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTuistProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF51AD81215BB3E54AE593F /* SampleTuistProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTuistProjectUITests.swift; sourceTree = "<group>"; };
+		2C6B3F4C11369875221698A0 /* XoxoAssetsTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XoxoAssetsTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B9EA58937DD19C33EC2258 /* XoxoDependencies_XoxoAssetsMobile.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XoxoDependencies_XoxoAssetsMobile.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A668F4AD73E628521BBC394 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		3D4F7FE42F0CADB965B1758B /* XoxoToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XoxoToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4011814BBBCA66C5CA22B6D0 /* SampleTuistProjectKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleTuistProjectKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A115D29042EAE52DE2A9A7E /* XoxoDependencies_XoxoToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XoxoDependencies_XoxoToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		635B5A2588CEB7DAE2C61C6D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D228CCDBC68E109EDE85064 /* SampleTuistProjectUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTuistProjectUI.swift; sourceTree = "<group>"; };
+		7D8BC0D43BEDC3DA80B98178 /* SampleTuistProjectKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTuistProjectKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1B1093E1E0C1455146DE50 /* SampleTuistProjectUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SampleTuistProjectUI-Info.plist"; sourceTree = "<group>"; };
+		9E66548733768C6DE6964C4B /* SampleTuistProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SampleTuistProjectTests-Info.plist"; sourceTree = "<group>"; };
+		A024475506B099942802CB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6F70BA6B2A0D41B5B7DD132 /* SampleTuistProjectKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTuistProjectKitTests.swift; sourceTree = "<group>"; };
+		A8400514338E564257089314 /* SampleTuistProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTuistProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16DB3C5B40F3E99141F95C3 /* SampleTuistProjectKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SampleTuistProjectKit-Info.plist"; sourceTree = "<group>"; };
+		B210808D8063D26E4DEDFB04 /* SampleTuistProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTuistProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EE99493AE3833B57274101 /* SampleTuistProjectUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleTuistProjectUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F3A9416E3B3882E803093F /* SampleTuistProjectUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SampleTuistProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		CB9A185E481689891763F5E0 /* XoxoDependencies_XoxoAssetsTV.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XoxoDependencies_XoxoAssetsTV.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC056D0C2FA9408560A088BA /* XoxoAssets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XoxoAssets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFADA82E97874091C1D39FE /* SampleTuistProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SampleTuistProject-Info.plist"; sourceTree = "<group>"; };
+		D39CA0210A8D3566C2052F2F /* SampleTuistProjectKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SampleTuistProjectKitTests-Info.plist"; sourceTree = "<group>"; };
+		DD7499F245BB68FBF8C29E65 /* SampleTuistProjectKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTuistProjectKit.swift; sourceTree = "<group>"; };
+		DE42018826F82532F0D4C370 /* XoxoAssetsMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XoxoAssetsMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F132ABE3F42E04C37FE4B1 /* XoxoDependencies_XoxoAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XoxoDependencies_XoxoAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACF758DBD4AF34D1A35F382 /* TuistBundle+SampleTuistProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SampleTuistProject.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A69B51AF2192D18F7F1E6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A64D6F0DC2E6B6AE563323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E66DDD74B1B29B8F6C043D4 /* SampleTuistProjectKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D81B191F692462C2A5FBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD99EBA8B4BE3B76BCBDD5A /* SampleTuistProjectUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E2852F8A1697652BACC3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7A30F8D28FD710C1F5B840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDB6C1A80823246497F56BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC4DF1565B8752E36F5F0A8 /* SampleTuistProjectKit.framework in Frameworks */,
+				FD3C6AB1EE56586C6FD796AA /* SampleTuistProjectUI.framework in Frameworks */,
+				A1E6F535C9A7B7E94C65D70A /* XoxoAssets.framework in Frameworks */,
+				2BB461B8851CE83DEA74DF4C /* XoxoAssetsMobile.framework in Frameworks */,
+				74C21919B4099CC95F51F0EA /* XoxoAssetsTV.framework in Frameworks */,
+				DC29BE3AD0172A51009758E9 /* XoxoToast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FADFD081CAE7863055D921 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6D228CCDBC68E109EDE85064 /* SampleTuistProjectUI.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		141B87A06215DE934B62DC14 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EACF758DBD4AF34D1A35F382 /* TuistBundle+SampleTuistProject.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		14EAA9884FF728888D761F61 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF51AD81215BB3E54AE593F /* SampleTuistProjectUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5585DCD41E183ED8C90B9678 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F70BA6B2A0D41B5B7DD132 /* SampleTuistProjectKitTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		60BC68F242303F197E3E5E32 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DD7499F245BB68FBF8C29E65 /* SampleTuistProjectKit.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		750309465D34D7388CCA7125 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				635B5A2588CEB7DAE2C61C6D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75D3BF16DC349D548E7FBE71 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				839EAE4E3AE74B75AF5099A2 /* SampleTuistProject */,
+				B78B3A78FCA93D0EA7468325 /* SampleTuistProjectKit */,
+				CBFFD69B0323370B771C685B /* SampleTuistProjectUI */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		7825BEC6D145527F5DF20A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839EAE4E3AE74B75AF5099A2 /* SampleTuistProject */ = {
+			isa = PBXGroup;
+			children = (
+				750309465D34D7388CCA7125 /* Resources */,
+				CA2D139153556AAE8C7925F7 /* Sources */,
+				A1519EFBCD23A4DA006F386F /* Tests */,
+			);
+			path = SampleTuistProject;
+			sourceTree = "<group>";
+		};
+		A1519EFBCD23A4DA006F386F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3A668F4AD73E628521BBC394 /* AppTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B78B3A78FCA93D0EA7468325 /* SampleTuistProjectKit */ = {
+			isa = PBXGroup;
+			children = (
+				60BC68F242303F197E3E5E32 /* Sources */,
+				5585DCD41E183ED8C90B9678 /* Tests */,
+			);
+			path = SampleTuistProjectKit;
+			sourceTree = "<group>";
+		};
+		CA2D139153556AAE8C7925F7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A024475506B099942802CB56 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CBFFD69B0323370B771C685B /* SampleTuistProjectUI */ = {
+			isa = PBXGroup;
+			children = (
+				01FADFD081CAE7863055D921 /* Sources */,
+				14EAA9884FF728888D761F61 /* Tests */,
+			);
+			path = SampleTuistProjectUI;
+			sourceTree = "<group>";
+		};
+		DD01DA80E3E0FA6941BEF9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02234A0278AC7BC7187C835E /* SampleTuistProject.app */,
+				4011814BBBCA66C5CA22B6D0 /* SampleTuistProjectKit.framework */,
+				7D8BC0D43BEDC3DA80B98178 /* SampleTuistProjectKitTests.xctest */,
+				A8400514338E564257089314 /* SampleTuistProjectTests.xctest */,
+				C3EE99493AE3833B57274101 /* SampleTuistProjectUI.framework */,
+				B210808D8063D26E4DEDFB04 /* SampleTuistProjectUITests.xctest */,
+				CC056D0C2FA9408560A088BA /* XoxoAssets.framework */,
+				DE42018826F82532F0D4C370 /* XoxoAssetsMobile.framework */,
+				2C6B3F4C11369875221698A0 /* XoxoAssetsTV.framework */,
+				E1F132ABE3F42E04C37FE4B1 /* XoxoDependencies_XoxoAssets.bundle */,
+				38B9EA58937DD19C33EC2258 /* XoxoDependencies_XoxoAssetsMobile.bundle */,
+				CB9A185E481689891763F5E0 /* XoxoDependencies_XoxoAssetsTV.bundle */,
+				5A115D29042EAE52DE2A9A7E /* XoxoDependencies_XoxoToast.bundle */,
+				3D4F7FE42F0CADB965B1758B /* XoxoToast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3D0337C01D3B383BF4984CE /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				EF8FBE20FB4AD136BCD5C31E /* InfoPlists */,
+				141B87A06215DE934B62DC14 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		E49C8EE61ECE0ED02DF58E9D /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				E3D0337C01D3B383BF4984CE /* Derived */,
+				75D3BF16DC349D548E7FBE71 /* Targets */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		EF8FBE20FB4AD136BCD5C31E /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				CFFADA82E97874091C1D39FE /* SampleTuistProject-Info.plist */,
+				B16DB3C5B40F3E99141F95C3 /* SampleTuistProjectKit-Info.plist */,
+				D39CA0210A8D3566C2052F2F /* SampleTuistProjectKitTests-Info.plist */,
+				9E66548733768C6DE6964C4B /* SampleTuistProjectTests-Info.plist */,
+				8B1B1093E1E0C1455146DE50 /* SampleTuistProjectUI-Info.plist */,
+				C7F3A9416E3B3882E803093F /* SampleTuistProjectUITests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		F1C6D6E70B71BB8D6B911DE0 = {
+			isa = PBXGroup;
+			children = (
+				E49C8EE61ECE0ED02DF58E9D /* Project */,
+				7825BEC6D145527F5DF20A62 /* Frameworks */,
+				DD01DA80E3E0FA6941BEF9A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0025DF8F5FEA2DC9E6D01AE5 /* SampleTuistProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209744B4D529114F56E8C99C /* Build configuration list for PBXNativeTarget "SampleTuistProjectTests" */;
+			buildPhases = (
+				1699D254EC1E0624E4D1C006 /* Sources */,
+				DA3E8F88A77F5B199165ADCB /* Resources */,
+				3C105D6BD7A90DC3DFDEF872 /* Embed Frameworks */,
+				0A69B51AF2192D18F7F1E6C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6A6CF0666EA163FC33ED2E /* PBXTargetDependency */,
+			);
+			name = SampleTuistProjectTests;
+			productName = SampleTuistProjectTests;
+			productReference = A8400514338E564257089314 /* SampleTuistProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42E25AED6EC4C20EE5354FED /* SampleTuistProjectKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA3701C75BF3AC43F1306D9 /* Build configuration list for PBXNativeTarget "SampleTuistProjectKit" */;
+			buildPhases = (
+				DF14F0FA0AB0E2F2514D967F /* Sources */,
+				04524148F7498170FAAFE586 /* Resources */,
+				066600A5134BF94A38FBDF61 /* Embed Frameworks */,
+				7B7A30F8D28FD710C1F5B840 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleTuistProjectKit;
+			productName = SampleTuistProjectKit;
+			productReference = 4011814BBBCA66C5CA22B6D0 /* SampleTuistProjectKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		967B51EDC4161799B36F1C02 /* SampleTuistProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEE2A1630CDAD6FECE54BBC /* Build configuration list for PBXNativeTarget "SampleTuistProject" */;
+			buildPhases = (
+				EE1B1CA171B12EB9B343CD9B /* Sources */,
+				1BEDEE61094F0ED9B39A1610 /* Resources */,
+				D6423D8C4FD9123F5A869D76 /* Embed Frameworks */,
+				8EDB6C1A80823246497F56BB /* Frameworks */,
+				1A010CBADD9DD3EC7FDD8C24 /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB3EF56CD20A9DF6397AB1F /* PBXTargetDependency */,
+				CA46FDB962E7763547838F06 /* PBXTargetDependency */,
+			);
+			name = SampleTuistProject;
+			productName = SampleTuistProject;
+			productReference = 02234A0278AC7BC7187C835E /* SampleTuistProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D56CE69B19D14557EDCF3173 /* SampleTuistProjectKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995405DFE4F31B62E9FDD1CB /* Build configuration list for PBXNativeTarget "SampleTuistProjectKitTests" */;
+			buildPhases = (
+				9D4E0C178C575E87D7CBCF14 /* Sources */,
+				BE9117E78CE402BC02AE004B /* Resources */,
+				9766A1DCB7CF352E18198D4D /* Embed Frameworks */,
+				51A64D6F0DC2E6B6AE563323 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663A8A529578537F0B3105BD /* PBXTargetDependency */,
+			);
+			name = SampleTuistProjectKitTests;
+			productName = SampleTuistProjectKitTests;
+			productReference = 7D8BC0D43BEDC3DA80B98178 /* SampleTuistProjectKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB9792F94CB2F8DE2A333324 /* SampleTuistProjectUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629CF47A1C1D545C371515D8 /* Build configuration list for PBXNativeTarget "SampleTuistProjectUI" */;
+			buildPhases = (
+				C0E52E4D3DBC595C1EC8CDEC /* Sources */,
+				F8574A291E845221E4F6E561 /* Resources */,
+				FF40D76B19899ED188CA8529 /* Embed Frameworks */,
+				72E2852F8A1697652BACC3CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleTuistProjectUI;
+			productName = SampleTuistProjectUI;
+			productReference = C3EE99493AE3833B57274101 /* SampleTuistProjectUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF5B40505709A2DAAB796011 /* SampleTuistProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30176AC55F60109F17BF4263 /* Build configuration list for PBXNativeTarget "SampleTuistProjectUITests" */;
+			buildPhases = (
+				F37CC2EB06CE58C652360C8A /* Sources */,
+				AD15BC9481C0660676391423 /* Resources */,
+				CA8CC0B4D9B94F275D7654DA /* Embed Frameworks */,
+				64D81B191F692462C2A5FBE8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83DDE3E62372E0DACCFC57C1 /* PBXTargetDependency */,
+			);
+			name = SampleTuistProjectUITests;
+			productName = SampleTuistProjectUITests;
+			productReference = B210808D8063D26E4DEDFB04 /* SampleTuistProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21181E3D2BC7C7B9CA9BF7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = tuist.io;
+				TargetAttributes = {
+					0025DF8F5FEA2DC9E6D01AE5 = {
+						TestTargetID = 967B51EDC4161799B36F1C02;
+					};
+				};
+			};
+			buildConfigurationList = EF78DC4DA6713E6312201489 /* Build configuration list for PBXProject "SampleTuistProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F1C6D6E70B71BB8D6B911DE0;
+			productRefGroup = DD01DA80E3E0FA6941BEF9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967B51EDC4161799B36F1C02 /* SampleTuistProject */,
+				0025DF8F5FEA2DC9E6D01AE5 /* SampleTuistProjectTests */,
+				42E25AED6EC4C20EE5354FED /* SampleTuistProjectKit */,
+				D56CE69B19D14557EDCF3173 /* SampleTuistProjectKitTests */,
+				DB9792F94CB2F8DE2A333324 /* SampleTuistProjectUI */,
+				EF5B40505709A2DAAB796011 /* SampleTuistProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04524148F7498170FAAFE586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEDEE61094F0ED9B39A1610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F4053CBDEE0200C5B7B7FD /* LaunchScreen.storyboard in Resources */,
+				96BC396B8687197FB6D7BC64 /* XoxoDependencies_XoxoAssets.bundle in Resources */,
+				0C384F415B15B47F627D8DE4 /* XoxoDependencies_XoxoAssetsMobile.bundle in Resources */,
+				423715D37A12B3EE50830A3C /* XoxoDependencies_XoxoAssetsTV.bundle in Resources */,
+				05B62DB9D1645BC4AD1228C7 /* XoxoDependencies_XoxoToast.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD15BC9481C0660676391423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9117E78CE402BC02AE004B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3E8F88A77F5B199165ADCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8574A291E845221E4F6E561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1699D254EC1E0624E4D1C006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E26F05EB07CF975643F12B /* AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4E0C178C575E87D7CBCF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D8E83F4B23FE16B779C63 /* SampleTuistProjectKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E52E4D3DBC595C1EC8CDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED56B14D268F34952F4D28F /* SampleTuistProjectUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF14F0FA0AB0E2F2514D967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6872C35810FDABF70EE27CFA /* SampleTuistProjectKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1B1CA171B12EB9B343CD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E50A2D27E22EEC067C5EF0 /* TuistBundle+SampleTuistProject.swift in Sources */,
+				D2AB2AB65F3BB5D0CF7E5B54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37CC2EB06CE58C652360C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C2C7BF524823F6C48EB12F /* SampleTuistProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		663A8A529578537F0B3105BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleTuistProjectKit;
+			target = 42E25AED6EC4C20EE5354FED /* SampleTuistProjectKit */;
+			targetProxy = A0B116AEE4B0E27CC6A4A451 /* PBXContainerItemProxy */;
+		};
+		83DDE3E62372E0DACCFC57C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleTuistProjectUI;
+			target = DB9792F94CB2F8DE2A333324 /* SampleTuistProjectUI */;
+			targetProxy = 3F1F7B5E0C5D13AE007AB659 /* PBXContainerItemProxy */;
+		};
+		CA46FDB962E7763547838F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleTuistProjectUI;
+			target = DB9792F94CB2F8DE2A333324 /* SampleTuistProjectUI */;
+			targetProxy = D3BF9E1BABC7B7ABC241AB90 /* PBXContainerItemProxy */;
+		};
+		DE6A6CF0666EA163FC33ED2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleTuistProject;
+			target = 967B51EDC4161799B36F1C02 /* SampleTuistProject */;
+			targetProxy = 64A43302A9B6BB4E94672A5F /* PBXContainerItemProxy */;
+		};
+		EAB3EF56CD20A9DF6397AB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleTuistProjectKit;
+			target = 42E25AED6EC4C20EE5354FED /* SampleTuistProjectKit */;
+			targetProxy = 383ACB76E716B13B9FF0E454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2002417B33917F89029F3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4421882806BF803484048D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectUITests;
+				PRODUCT_NAME = SampleTuistProjectUITests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DE534B7A1523037A8A49CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProject-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProject;
+				PRODUCT_NAME = SampleTuistProject;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63C377C2F9F26F1393445C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectUI;
+				PRODUCT_NAME = SampleTuistProjectUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D6598C06320F9DADB458F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectUI;
+				PRODUCT_NAME = SampleTuistProjectUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79C3C15E38F80063E6F5022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProject-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProject;
+				PRODUCT_NAME = SampleTuistProject;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		811672422AD6BBD12110B395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4315CF4F92D51CF96954C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectTests;
+				PRODUCT_NAME = SampleTuistProjectTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleTuistProject.app/SampleTuistProject";
+				TEST_TARGET_NAME = SampleTuistProject;
+			};
+			name = Debug;
+		};
+		D025B47B7B36B0B0769388FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectTests;
+				PRODUCT_NAME = SampleTuistProjectTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleTuistProject.app/SampleTuistProject";
+				TEST_TARGET_NAME = SampleTuistProject;
+			};
+			name = Release;
+		};
+		D55312877ECB4C89D11782BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectKitTests;
+				PRODUCT_NAME = SampleTuistProjectKitTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69E28FDBA707CE7187D2A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectKit;
+				PRODUCT_NAME = SampleTuistProjectKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4294AD65230267FA4CEAA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectKit;
+				PRODUCT_NAME = SampleTuistProjectKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F41797B2B49122D9D8B6B3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectKitTests;
+				PRODUCT_NAME = SampleTuistProjectKitTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71B0F849B1ADBDB2D83169C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/SampleTuistProjectUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.SampleTuistProjectUITests;
+				PRODUCT_NAME = SampleTuistProjectUITests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209744B4D529114F56E8C99C /* Build configuration list for PBXNativeTarget "SampleTuistProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4315CF4F92D51CF96954C9E /* Debug */,
+				D025B47B7B36B0B0769388FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA3701C75BF3AC43F1306D9 /* Build configuration list for PBXNativeTarget "SampleTuistProjectKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E28FDBA707CE7187D2A68 /* Debug */,
+				E4294AD65230267FA4CEAA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30176AC55F60109F17BF4263 /* Build configuration list for PBXNativeTarget "SampleTuistProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71B0F849B1ADBDB2D83169C /* Debug */,
+				3D4421882806BF803484048D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629CF47A1C1D545C371515D8 /* Build configuration list for PBXNativeTarget "SampleTuistProjectUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6598C06320F9DADB458F18 /* Debug */,
+				63C377C2F9F26F1393445C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995405DFE4F31B62E9FDD1CB /* Build configuration list for PBXNativeTarget "SampleTuistProjectKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41797B2B49122D9D8B6B3D6 /* Debug */,
+				D55312877ECB4C89D11782BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEE2A1630CDAD6FECE54BBC /* Build configuration list for PBXNativeTarget "SampleTuistProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C3C15E38F80063E6F5022E /* Debug */,
+				4DE534B7A1523037A8A49CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF78DC4DA6713E6312201489 /* Build configuration list for PBXProject "SampleTuistProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811672422AD6BBD12110B395 /* Debug */,
+				2002417B33917F89029F3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21181E3D2BC7C7B9CA9BF7FE /* Project object */;
+}
