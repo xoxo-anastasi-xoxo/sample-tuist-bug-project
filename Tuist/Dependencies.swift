@@ -19,5 +19,5 @@ let dependencies = Dependencies(
             )
         ]
     ),
-    platforms: [.tvOS]
+    platforms: [.iOS]
 )
